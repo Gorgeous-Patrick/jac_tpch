@@ -1,2 +1,2 @@
-.jac
-__pycache__
+.jac/
+jac.local.toml
