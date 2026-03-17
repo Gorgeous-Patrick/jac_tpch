@@ -29,7 +29,7 @@ with entry {
     answers_dir = os.path.join(script_dir, "..", "tpch_small", "answers");
 
     # Jac walker runtime uses recursive calls internally; with 86K+ nodes we need more stack.
-    sys.setrecursionlimit(200000);
+    sys.setrecursionlimit(500000);
 
     # Import verify_answers from the benchmark directory
     sys.path.insert(0, script_dir);
