@@ -4,7 +4,7 @@ import sqlite3
 from pathlib import Path
 
 
-BASE_DIR = Path("/home/patrickli/Space/clarity_lab/jac_tpch")
+BASE_DIR = Path.cwd()
 DATA_DIR = BASE_DIR / "tpch_small"
 ANSWERS_DIR = DATA_DIR / "answers"
 
