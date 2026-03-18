@@ -1,0 +1,5 @@
+*.o
+dbgen
+qgen
+*.tbl
+answers
